@@ -46,10 +46,10 @@
 }
 
 .cover {
+  position: relative;
+  padding: 165px 50px 50px 50px;
   background-image: url(../images/cover.jpg);
-  color: #ffffff;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 
@@ -136,12 +136,10 @@
 }
 
 .lots__card-list {
-  display: flex;
-  justify-content: space-between;
-  gap: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 25px;
   list-style: none;
-  margin-bottom: 30px;
-  
 }
 
 .lots__card-list-item {
@@ -255,8 +253,8 @@
 }
 
 .footer__menu-list {
-  list-style: none;
   text-align: center;
+  list-style: none;
 }
 
 .footer__menu-link_active {
