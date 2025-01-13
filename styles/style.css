@@ -47,7 +47,6 @@
 
 .cover {
 position: relative;
-  padding: 165px 50px 50px 50px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,6 +62,7 @@ position: relative;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  color: #FFF;
   font-style: normal;
   font-weight: 700;
   font-size: 100px;
@@ -86,7 +86,7 @@ position: relative;
 }
 
 .letter-spacing-extended {
-  letter-spacing: 0.53em;
+  letter-spacing: 0.6em;
 }
 
 .no-letter-spacing {
@@ -101,13 +101,14 @@ position: relative;
 }
 
 .cover__description-text {
+ color: #FFF;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 127.27%;
   text-transform: uppercase;
   text-align: end;
-  word-spacing: 19.9px;
+  word-spacing: 18px;
   margin-right: 6.8%;
 }
 
@@ -257,6 +258,7 @@ position: relative;
 .footer__menu-list {
   text-align: center;
   list-style: none;
+  line-height: 21.3px;
 }
 
 .footer__menu-link_active {
