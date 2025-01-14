@@ -94,14 +94,13 @@ position: relative;
 }
 
 .cover__description {
-  display: flex;
+display: flex;
 margin-left: 27px;
   align-items: center;
   margin-top: 12.6%;
 }
 
 .cover__description-text {
- color: #FFF;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -109,10 +108,10 @@ margin-left: 27px;
   text-transform: uppercase;
   text-align: end;
   word-spacing: 18px;
-  margin-right: 79px;
-}
+  margin-right: 79px ;
+}0
 
-.bet-button {
+.21.bet-button {
   font-family: Raleway, sans-serif;
   font-size: 22px;
   font-weight: 400;
